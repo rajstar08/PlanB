@@ -7,26 +7,9 @@ const FIXED_POINTS   = 100;  // ✅ FIXED SL/TP points
 // PAIR LISTS
 const CRYPTO_LIST = [
   { sym: 'BTCUSDT', id: 'btc', label: 'BTC' },
-  { sym: 'ETHUSDT', id: 'eth', label: 'ETH' },
-  { sym: 'SOLUSDT', id: 'sol', label: 'SOL' },
-  { sym: 'BNBUSDT', id: 'bnb', label: 'BNB' },
-  { sym: 'ADAUSDT', id: 'ada', label: 'ADA' },
-  { sym: 'XRPUSDT', id: 'xrp', label: 'XRP' },
-  { sym: 'DOGEUSDT', id: 'doge', label: 'DOGE' },
-  { sym: 'LTCUSDT', id: 'ltc', label: 'LTC' },
 ];
 
 const FOREX_LIST = [
-  { sym: 'XAUUSDT', id: 'xau', label: 'GOLD' },
-  { sym: 'EURUSDT', id: 'eur', label: 'EURUSD' },
-  { sym: 'GBPUSDT', id: 'gbp', label: 'GBPUSD' },
-  { sym: 'AUDUSDT', id: 'aud', label: 'AUDUSD' },
-  { sym: 'NZDUSDT', id: 'nzd', label: 'NZDUSD' },
-  { sym: 'USDJPY',  id: 'jpy', label: 'USDJPY' },
-  { sym: 'USDTTRY', id: 'try', label: 'USDTRY' },
-  { sym: 'USDCAD',  id: 'cad', label: 'USDCAD' },
-  { sym: 'USDCHF',  id: 'chf', label: 'USDCHF' },
-  { sym: 'USDMXN',  id: 'mxn', label: 'USDMXN' },
 ];
 
 // ====== UI INIT ======
@@ -232,3 +215,4 @@ function badgeClass(label){
   if(t === 'LOSS') return 'lose';
   return 'pending';
 }
+
