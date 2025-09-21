@@ -3,47 +3,54 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Plan B</title>
+  <title>NEXUS</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Disclaimer -->
-  <div id="disclaimer" class="popup">
-    <div class="popup-card">
-      <h2>⚠ Disclaimer</h2>
-      <p>This site shows automated BUY/SELL.<br>
-         Educational purposes only. <strong>Not financial advice.</strong></p>
-      <button id="agreeBtn" class="btn primary">OK, I Understand</button>
-    </div>
-  </div>
 
-  <header class="site-header">
-    <div class="insta-btn">
+<!-- Disclaimer -->
+<div id="disclaimer" class="popup">
+  <div class="popup-card">
+    <h2>⚠ Disclaimer</h2>
+    <p>This Site Shows Automated BUY/SELL Signals .<br> Educational Purposes Only. <strong>Not Financial Advice.</strong></p>
+    <button id="agreeBtn" class="btn primary">OK, I Understand</button>
+  </div>
+</div>
+
+<header class="site-header">
+  <!-- Instagram Button -->
+  <div class="insta-btn">
     <a href="https://instagram.com/pruthviraj_donglikar" target="_blank">
-      Follow For A Samosa 🍴
+      Follow For A Cookie :)
     </a>
   </div>
-    <h1>Plan ₿</h1>
-    <p class="subtitle">2 BRAINS STRATEGY</p>
+  
+  <!-- Website Name -->
+  <h1>NEXU$</h1>
 
-    <nav class="tabs">
-      <button class="tab active" data-target="crypto">Crypto</button>
-      <button class="tab" data-target="forex">Forex</button>
-    </nav>
-  </header>
+  <!-- Tabs -->
+  <nav class="tabs">
+    <button class="tab active" data-target="btc">BiTcOiN</button>
+    <button class="tab" data-target="eth">EtHeReUm</button>
+    <button class="tab" data-target="binary">BiNaRy</button>
+  </nav>
+</header>
 
-  <main class="container">
-    <!-- Crypto Grid -->
-    <section id="crypto" class="grid active-grid"></section>
+<main class="container">
+  <!-- BTC Cards Grid -->
+  <section id="btc" class="grid active-grid" id="card-container">
+    <!-- JS will inject 10 cards here -->
+  </section>
 
-    <!-- Forex Grid -->
-    <section id="forex" class="grid"></section>
-  </main>
+  <!-- ETH & Binary empty sections -->
+  <section id="eth" class="grid"></section>
+  <section id="binary" class="grid"></section>
+</main>
 
-  <footer class="site-footer">
-     Paneeeeeeeer Khaoooooooo
-  </footer>
+<footer class="site-footer">
+  Made with ❤️ by NEXUS
+</footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
